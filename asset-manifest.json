@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bhushankhope/static/css/main.e11034ee.css",
+    "main.js": "/bhushankhope/static/js/main.384a1b1d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/bhushankhope/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/bhushankhope/index.html",
+    "main.e11034ee.css.map": "/bhushankhope/static/css/main.e11034ee.css.map",
+    "main.384a1b1d.js.map": "/bhushankhope/static/js/main.384a1b1d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/bhushankhope/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e11034ee.css",
+    "static/js/main.384a1b1d.js"
+  ]
+}
