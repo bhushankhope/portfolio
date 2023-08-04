@@ -1,7 +1,7 @@
 .app {
   /* background-image: url(assets/background.jpg); */
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
+  /* height: 100vh; */
+  width: 100%;
+  background-color: #1a191d;
   color: white;
 }

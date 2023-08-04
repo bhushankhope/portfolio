@@ -26,7 +26,10 @@ function NavBar() {
 
   return (
     <AppBar position="static" className='toolbar' 
-    sx={{ backgroundColor: 'black', fontFamily: 'Noto Sans', fontStyle: 'italic'}}>
+    sx={{ backgroundColor: '#f0f0f0', fontFamily: 'Noto Sans', fontStyle: 'italic',
+    '@media(max-width: 700px)': {
+      backgroundColor: '#1a191d'
+    }}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -70,7 +73,7 @@ function NavBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black', display: 'block'}}
               >
                 {page}
               </Button>
