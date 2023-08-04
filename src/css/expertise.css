@@ -107,11 +107,38 @@
         margin: 0rem 2rem;
     }
 
-    .expertise-container div:first-child {
-        border-bottom: unset;
+    .development-container {
+        margin-bottom: 2rem;
     }
 
     .development-container {
         border-right: solid rgba(255, 255, 255, 0.664) 4px !important;
+        width: calc(100% - 2rem);
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .expertise-label {
+        font-size: 15px;
+        word-break: break-all;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+
+    .top {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 256px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .description {
+        margin-left: unset;
     }
 }
