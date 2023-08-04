@@ -1,9 +1,13 @@
 import React from 'react'
 import '../css/projects.css'
+import ProjectCard from './card';
 
 function Projects() {
   return (
-    <div>projects</div>
+    <div>
+      <h3 className='project-title'>My Projects</h3>
+      <ProjectCard></ProjectCard>
+    </div>
   )
 }
 
