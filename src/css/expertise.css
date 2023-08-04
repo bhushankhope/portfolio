@@ -1,0 +1,102 @@
+.heading {
+    color: white;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+.expertise-container {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 17rem;
+}
+
+.development-container {
+    border: solid rgba(255, 255, 255, 0.664) 4px;
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+}
+
+.expertise-container div:first-child {
+    border-right: none;
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.svg {
+    padding-right: 1.5rem;
+    margin-top: 5px;
+    display: block;
+}
+
+.expertise-label {
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 2rem;
+    display: block;
+    position: relative;
+    z-index: 0;
+    letter-spacing: 1.5px;
+}
+
+.expertise-label::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 55.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 68%;
+    left: 0%;
+    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.fr::after {
+    background: linear-gradient(65deg, #0510df 0%, #2605df 100%, rgba(255, 209, 0, 0) 100%);
+    bottom: 53.5%;
+    width: 90%;
+}
+
+/* .bottom::after {
+    opacity: 0.3;
+    content: '';
+    width: 0;
+    height: 7%;
+    position: absolute;
+    background-color: white;
+    border: 0.1px solid white;
+    bottom: 20%;
+    left: 14.8rem;
+} */
+
+.description {
+    width: 70%;
+    text-align: start;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* .description::before, .description::after {
+    content: "<p>";
+    display: block;
+    margin-left: -40px;
+    margin-bottom: 0.5rem;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.description::after {
+    content: "</p>";
+    margin-top: 0.3rem;
+} */
