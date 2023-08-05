@@ -1,5 +1,4 @@
 import './App.css';
-import ReactAccordion from './components/accordion';
 import Expertise from './components/expertise';
 import Introduction from './components/intro';
 import NavBar from './components/navbar';
