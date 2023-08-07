@@ -3,14 +3,15 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea, CardActions } from '@mui/material';
 import '../css/card.css';
+import ColorButtons from './button';
 
 export default function ProjectCard(props) {
-  const { image, alt, title, description } = props;
+  const { image, alt, title, description, buttonLabel } = props;
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', backgroundColor: '#f0f0f0' }}>
+      <CardActionArea sx={{ height: 'maxContent' }}>
         <CardMedia
           component="img"
           height="140"
@@ -26,10 +27,9 @@ export default function ProjectCard(props) {
           </Typography>
         </CardContent>
       </CardActionArea>
+      <div style={{ flexGrow: 1 }}></div>
       <CardActions>
-        <Button size="small" color="primary" className='visitBtn'>
-          <a href='https://humanatlas.io' target="_blank" rel='noreferrer'>Visit</a>
-        </Button>
+        {buttonLabel && <ColorButtons label={buttonLabel}></ColorButtons>}
       </CardActions>
     </Card>
   );
