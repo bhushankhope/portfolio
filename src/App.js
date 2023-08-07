@@ -1,4 +1,5 @@
 import './App.css';
+import Experience from './components/experience';
 import Expertise from './components/expertise';
 import Introduction from './components/intro';
 import NavBar from './components/navbar';
@@ -10,7 +11,8 @@ function App() {
       <NavBar></NavBar>
       <Introduction></Introduction>
       <Expertise></Expertise>
-      <Projects/>
+      <Projects />
+      <Experience></Experience>
     </div>
   );
 }

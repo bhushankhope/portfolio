@@ -1,0 +1,19 @@
+.exp-container {
+    /* margin: 0rem 9rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-title {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1050px) {
+    .exp-container {
+        margin: 0rem 1rem;
+    }
+}
