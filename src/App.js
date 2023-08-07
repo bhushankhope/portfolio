@@ -10,7 +10,7 @@ function App() {
       <NavBar></NavBar>
       <Introduction></Introduction>
       <Expertise></Expertise>
-      <Projects></Projects>
+      <Projects/>
     </div>
   );
 }
