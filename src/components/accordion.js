@@ -35,7 +35,7 @@ export default function ControlledAccordions(props) {
             <span className='loc-url-wrapper'>
               <span className='location'><LocationOnIcon sx={{ fill: '#ff00ff' }} className='icon' />Bloomington, Indiana</span><br />
               <span className='url'><LinkIcon sx={{ fill: '#ff00ff' }} className='icon' />
-                <a href='https://cns.iu.edu' className='link' target="_blank">cns.iu.edu</a></span><br />
+                <a href='https://cns.iu.edu' className='link' target="_blank" rel='noreferrer'>cns.iu.edu</a></span><br />
             </span>
             Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
             Aliquam eget maximus est, id dignissim quam.
@@ -60,7 +60,7 @@ export default function ControlledAccordions(props) {
             <span className='loc-url-wrapper'>
               <span className='location'><LocationOnIcon sx={{ fill: '#ff00ff' }} className='icon' />Pune, India</span><br />
               <span className='url'><LinkIcon sx={{ fill: '#ff00ff' }} className='icon' />
-                <a href='https://www.accenture.com/in-en' className='link' target="_blank">accenture.com/in-en</a></span><br />
+                <a href='https://www.accenture.com/in-en' rel='noreferrer' className='link' target="_blank">accenture.com/in-en</a></span><br />
             </span>
             Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
             Aliquam eget maximus est, id dignissim quam.
@@ -86,7 +86,7 @@ export default function ControlledAccordions(props) {
             <span className='loc-url-wrapper'>
               <span className='location'><LocationOnIcon sx={{ fill: '#ff00ff' }} className='icon' />Pune, India</span><br />
               <span className='url'><LinkIcon sx={{ fill: '#ff00ff' }} className='icon' />
-                <a href='https://globalstep.com/' className='link' target="_blank">globalstep.com</a></span><br />
+                <a href='https://globalstep.com/' rel='noreferrer' className='link' target="_blank">globalstep.com</a></span><br />
             </span>
             Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
             Aliquam eget maximus est, id dignissim quam.
