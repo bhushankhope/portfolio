@@ -1,7 +1,13 @@
 .app {
-  /* background-image: url(assets/background.jpg); */
-  /* height: 100vh; */
   width: 100%;
   background-color: #1a191d;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  max-width: 77rem;
 }
