@@ -1,0 +1,32 @@
+.custom-accordion-summary>div {
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.loc-url-wrapper {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: #c1bfca;
+}
+
+.location {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.url {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: #c1bfca;
+}
+
+.link:hover {
+    color: #00c1ff;
+}
