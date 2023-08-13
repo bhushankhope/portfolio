@@ -17,7 +17,7 @@
     border: solid rgba(255, 255, 255, 0.664) 4px;
     text-align: center;
     padding: 2rem;
-    width: 50%;
+    max-width: 30%;
 }
 
 .expertise-container div:first-child {
@@ -66,18 +66,6 @@
     width: 90%;
 }
 
-/* .bottom::after {
-    opacity: 0.3;
-    content: '';
-    width: 0;
-    height: 7%;
-    position: absolute;
-    background-color: white;
-    border: 0.1px solid white;
-    bottom: 20%;
-    left: 14.8rem;
-} */
-
 .description {
     text-align: start;
     margin-left: 4rem;
@@ -113,6 +101,7 @@
 
     .development-container {
         border-right: solid rgba(255, 255, 255, 0.664) 4px !important;
+        max-width: unset;
         width: calc(100% - 2rem);
     }
 }

@@ -1,3 +1,11 @@
+.name-small {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 8rem;
+}
+
 .intro {
     color: white;
     display: flex;
@@ -6,22 +14,44 @@
     justify-content: center;
 }
 
-.name  {
+.name {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: 4px;
     font-size: 4rem;
-    margin: 1rem 0rem;
+    margin: 0;
+    margin-bottom: 1rem;
 }
 
 .title {
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 1.5px;
 }
 
+.self-description {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+    width: 50%;
+}
+
+.work-link {
+    text-decoration: none;
+    color: #00c1ff;
+}
+
+.work-link:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 700px) {
+    .name-small {
+        margin-top: 3rem;
+    }
+
     .name {
         text-align: center;
         font-size: 3rem;
@@ -30,5 +60,11 @@
 
     .title {
         text-align: center;
+    }
+
+    .self-description {
+        width: unset;
+        margin: 0rem 1rem;
+        text-align: start;
     }
 }
